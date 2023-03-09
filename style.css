@@ -104,6 +104,13 @@ header img {
   border-radius: 8px;
   padding: 10px 16px 10px 16px;
 }
+
+#under{
+  border-bottom: 2px solid rgb(21, 94, 239);
+  width: 100px;
+ 
+}
+
 /* second frame*/
 .second {
   background-color: white;
