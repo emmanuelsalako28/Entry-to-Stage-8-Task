@@ -235,7 +235,7 @@ header img {
 }
 
 .faaa {
-  margin-left: 20px;
+  margin-left: 90px;
 }
 
 .foot-logo-image {
@@ -277,6 +277,9 @@ header img {
   text-align: left;
   color: white;
 }
+
+
+
 
 /* Mobile Responsivenes */
 @media all and (max-width: 799px) {
@@ -406,14 +409,12 @@ header img {
     text-align: left;
   }
   .reco {
+  position: relative;
+    text-align: justify;
     background-color: #e6e6e6;
     width: 100%;
-
-    margin-top: 0px;
-    position: relative;
-    z-index: 2;
-    right: 0px;
     top: 0px;
+    left: 0px;
     padding: 0px;
   }
   .reco h3 {
@@ -437,14 +438,19 @@ header img {
     background-color: ;
   }
   .third {
+       height: auto;
+    justify-content: center;
+    padding: 16px 15px 0px;
+    gap: 10px;
     background-color: #e6e6e6;
-
-    padding-bottom: 84px;
+    margin-bottom: 0px
   }
   .third img {
     display: none;
   }
-
+  #ipost{
+    display: none;
+  }
   .foot-logo {
     display: inline-block;
     width: 70%;
