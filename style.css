@@ -310,6 +310,7 @@ header img {
   }
   .right {
     padding: 0;
+    margin: 10px;
   }
   .right h1 {
     font-family: Halant;
