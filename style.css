@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Halant:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap");
 
-*{
-    padding: 0;
+* {
+  padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 body {
   background-color: black;
@@ -16,7 +17,7 @@ header {
   background-color: white;
   display: flex;
   justify-content: space-around;
-  padding: 0px 30px 0px 5px;
+  padding: 30px 0px 10px 15px;
 }
 
 header img {
@@ -31,7 +32,7 @@ header img {
   font-family: "Halant", serif;
   font-size: 24px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 27px;
   letter-spacing: 0em;
   text-align: left;
 }
@@ -47,7 +48,6 @@ header img {
   border: 2px solid #155eef;
   border-radius: 8px;
   padding: 10px 16px 10px 16px;
-  margin-top: 10px;
 }
 
 /* first frame*/
@@ -59,13 +59,14 @@ header img {
 }
 .first img {
   height: 479px;
-  width: 100%;
+  width: 90%;
   left: 949px;
   top: 56px;
   border-radius: 0px;
 }
 .right {
   padding-left: 200px;
+  margin-top: 70px;
 }
 
 .right h1 {
@@ -108,10 +109,10 @@ header img {
   padding: 10px 16px 10px 16px;
 }
 
-#under{
+#under {
   border-bottom: 2px solid rgb(21, 94, 239);
   width: 100px;
- 
+  margin-bottom: 37px;
 }
 
 /* second frame*/
@@ -178,44 +179,55 @@ header img {
 .third {
   background-color: #e6e6e6;
   display: flex;
-  padding-bottom: 84px;
+  justify-content: space-between;
+  padding: 36px 120px 100px;
+  margin-bottom: 30px;
+  position: relative;
 }
 
 .third img {
   padding-left: 120px;
   padding-top: 32px;
   padding-bottom: 32px;
-  position: relative;
 }
-
+#ipost {
+  width: 57%;
+}
 .reco {
-  background-color: white;
-  width: 40%;
-  height: 40%;
-  margin-top: 10px;
-  position: relative;
+  background-color: #ffffff;
+  width: 47%;
+  height: 47%;
   z-index: 2;
-  right: 150px;
-  top: 235px;
-  padding: 20px;
+  padding: 54px 40px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 750px;
 }
 .reco h3 {
-  font-family: "Halant", serif;
-  font-size: 32px;
+  font-family: "Halant";
+  font-style: normal;
   font-weight: 600;
-  line-height: 48px;
+  font-size: 32px;
+  line-height: 150%;
+  text-align: justify;
   letter-spacing: 0.5px;
-  text-align: justified;
+  color: #141414;
 }
 
 .reco p {
-  font-family: "Manrope", sans-serif;
-  font-size: 24px;
+  font-family: "Manrope";
+  font-style: normal;
   font-weight: 500;
-  line-height: 36px;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: justify;
   letter-spacing: 0.5px;
-  text-align: justified;
+  color: #141414;
 }
+
 /* footer section */
 .foot-logo {
   display: flex;
@@ -271,9 +283,8 @@ header img {
   * {
     padding: 0;
     margin: 0;
-    
   }
-  body{
+  body {
     max-width: 100%;
   }
   .first {
@@ -284,7 +295,7 @@ header img {
     padding: 0px;
     /* width: 100%; */
     padding: 0px;
-   
+
     gap: 5px;
   }
   .first {
@@ -320,9 +331,8 @@ header img {
     line-height: 24px;
     letter-spacing: 0.5px;
     text-align: center;
-    
+
     padding-bottom: 10px;
-    
   }
   #seemy {
     height: 44px;
@@ -350,10 +360,10 @@ header img {
     align-items: center;
     padding: 10px 0 20px 0px;
   }
-#hs{
-  display: flex;
-  gap: 5px;
-}
+  #hs {
+    display: flex;
+    gap: 5px;
+  }
   .rightty h1 {
     font-family: Halant;
     font-size: 24px;
