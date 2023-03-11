@@ -103,8 +103,7 @@ header img {
   color: white;
   height: 44px;
   width: 164px;
-  left: 0px;
-  top: 160px;
+  margin-top: 10px;
   border-radius: 8px;
   padding: 10px 16px 10px 16px;
 }
@@ -180,7 +179,7 @@ header img {
   background-color: #e6e6e6;
   display: flex;
   justify-content: space-between;
-  padding: 36px 120px 100px;
+  padding: 36px 10px 100px;
   margin-bottom: 30px;
   position: relative;
 }
@@ -204,7 +203,7 @@ header img {
   flex-direction: column;
   position: absolute;
   top: 50%;
-  left: 750px;
+  left: 700px;
 }
 .reco h3 {
   font-family: "Halant";
@@ -222,6 +221,7 @@ header img {
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
+  width: 99%;
   line-height: 150%;
   text-align: justify;
   letter-spacing: 0.5px;
@@ -427,6 +427,7 @@ header img {
   .reco p {
     font-family: Manrope;
     font-size: 16px;
+    
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.5px;
