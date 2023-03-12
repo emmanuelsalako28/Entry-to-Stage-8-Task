@@ -16,7 +16,7 @@ body {
 
 /* header */
 header {
-  background-color: white;
+  background-color: #F1F5FE;
   display: flex;
   justify-content: space-between;
  padding: 20px 50px;
@@ -56,7 +56,8 @@ header img {
   letter-spacing: 0.5px;
   text-align: left;
   color: #155eef;
-
+  
+background-color: #F1F5FE;
   border: 2px solid #155eef;
   border-radius: 8px;
   padding: 10px 16px 10px 16px;
