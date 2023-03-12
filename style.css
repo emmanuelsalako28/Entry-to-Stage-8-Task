@@ -286,7 +286,7 @@ header img {
 
 
 /* Mobile Responsivenes */
-@media all and (max-width: 799px) {
+@media all and (max-width: 912px) {
   * {
     padding: 0;
     margin: 0;
@@ -458,7 +458,7 @@ header img {
   }
   .foot-logo {
     display: inline-block;
-    width: 70%;
+    width: 60%;
   }
   .faaa {
     display: flex;
