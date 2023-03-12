@@ -148,14 +148,15 @@ align-items: center;
   padding: 50px;
 }
 
-.second img {
+/* .second img {
 
   padding-top: 32px;
-  padding-bottom: 32px;
-}
+  padding-bottom: 30px;
+} */
 .rightty {
   padding-top: 32px;
   line-height: 40px;
+  width: 70%;
 }
 
 .right h1 {
@@ -226,6 +227,7 @@ align-items: center;
 }
 #ipost {
   width: 57%;
+ 
 }
 .reco {
   background-color: #ffffff;
@@ -250,7 +252,26 @@ align-items: center;
   letter-spacing: 0.5px;
   color: #141414;
 }
+.reco h6{
+  color: #525252;
+  font-family: Halant;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0.5px;
+text-align: justified;
 
+
+}
+#senior{
+  font-family: Halant;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: justified;
+
+}
 .reco p {
   font-family: "Manrope";
   font-style: normal;
@@ -415,13 +436,14 @@ align-items: center;
     display: none;
   }
   .rightty {
-    /* width: 100%; */
+    width: 100%; 
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px 0 20px 0px;
+    padding: 10px 0 0px 0px;
+
   }
 
   .rightty h1 {
@@ -434,12 +456,12 @@ align-items: center;
   }
   .rightty p {
     font-family: Manrope;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.5px;
     text-align: justified;
-    width: 95%;
+    width: 100%;
     margin-left: 3%;
   }
     #hs {
@@ -482,25 +504,45 @@ align-items: center;
     padding: 20px;
   }
   .reco h3 {
-    font-family: Halant;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 36px;
-    letter-spacing: 0.5px;
-    text-align: center;
+  font-family: Halant;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0.5px;
+text-align: center;
+
   }
   .reco p {
-    font-family: Manrope;
-    font-size: 16px;
-    
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    text-align: justified;
-    width: 85%;
-    /* margin-left: 5%; */
+   font-family: Manrope;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: justified;
+
     background-color: ;
   }
+.reco h6{
+ font-family: Halant;
+font-size: 14px;
+font-weight: 600;
+line-height: 21px;
+letter-spacing: 0.5px;
+text-align: justified;
+
+
+}
+#senior{
+font-family: Halant;
+font-size: 12px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0.5px;
+text-align: justified;
+
+}
+
+
   .third {
        height: auto;
     justify-content: center;
