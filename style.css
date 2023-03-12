@@ -75,23 +75,26 @@ header img {
   display: flex;
   color: wheat;
   justify-content: space-between;
-padding: 0px 50px;
+padding: 20px 50px 0px 50px;
 align-items: center;
 }
 .first img {
  
   width: 100%;
-  left: 949px;
-  top: 56px;
-  border-radius: 0px;
+ 
+ 
 }
 .right {
-  
-  margin-top: 70px;
+  width: 65%;
+ 
 }
 .immmmmmh{
  display: block;
- width: 45%;
+ width: 35%;
+}
+.immmmmmh img{
+ 
+ width: 70%;
 }
 .right h1 {
   color: #b8b8b8;
@@ -128,6 +131,7 @@ align-items: center;
   height: 44px;
   width: 164px;
   margin-top: 10px;
+  margin-bottom: 30px;
   border-radius: 8px;
   padding: 10px 16px 10px 16px;
 }
@@ -172,23 +176,25 @@ align-items: center;
 }
 #hs{
   display: flex;
-  gap: 1rem;
-  margin-top: 20px;
+ gap: 1.26rem;
+  margin-top: 30px;
 }
 #hirey {
   background-color: #155eef;
   color: #ffffff;
+  width: 30%;
   font-family: "Manrope", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.5px;
-  text-align: left;
-  padding: 10px 49px 10px 49px;
-  border: none;
+  text-align: center;
+    padding: 10px 15px 10px 15px;
+ border: 2px solid #155eef;
   border-radius: 10px;
 }
 #seemie {
+  width: 30%;
   color: #155eef;
   background-color: #ffffff;
   font-family: "Manrope", sans-serif;
@@ -196,7 +202,7 @@ align-items: center;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.5px;
-  text-align: left;
+  text-align: center;
   padding: 10px 15px 10px 15px;
   border: 2px solid #155eef;
   border-radius: 10px;
@@ -328,6 +334,10 @@ align-items: center;
   body {
     max-width: 100%;
   }
+  
+  .immmh{
+    width: 50%;
+  }
   .first {
     display: flex;
     flex-direction: column-reverse;
@@ -335,20 +345,28 @@ align-items: center;
   header {
     padding: 0px;
     /* width: 100%; */
-    padding: 0px;
+    padding: 20px;
 
     gap: 5px;
   }
   .first {
-    /* margin-left: 3%; */
+   padding: 20px;
+   width: 100%;
   }
-  .first img {
-    /* width: 95%; */
-    left: 0px;
+  .immmmmmh img{
+ 
   }
+    .immmmmmh {
+    width: 100%;
+  }
+ .immmmmmh img{
+ 
+ width: 100%;
+}
   .right {
     padding: 0;
     margin: 10px;
+    width: 100%;
   }
   .right h1 {
     font-family: Halant;
@@ -389,7 +407,9 @@ align-items: center;
   .word {
     display: none;
   }
-
+ .second{
+  padding: 20px;
+ }
   .second img {
     display: none;
   }
@@ -402,10 +422,7 @@ align-items: center;
     align-items: center;
     padding: 10px 0 20px 0px;
   }
-  #hs {
-    display: flex;
-    gap: 5px;
-  }
+
   .rightty h1 {
     font-family: Halant;
     font-size: 24px;
@@ -424,28 +441,35 @@ align-items: center;
     width: 95%;
     margin-left: 3%;
   }
-  #hirey {
-    height: 44px;
-    width: 170px;
-    left: 0px;
-    top: 0px;
-    border-radius: 8px;
-    /* margin-left: 3%; */
-    margin-bottom: 5%;
+    #hs {
+   align-items: center;
+        align-items: center;
+      justify-content: space-between;
+      width: 100%;
   }
+  #hirey {
+   font-family: 'Manrope';
+        font-weight: 700;
+        font-size: 16px;
+     width: 50%;
+  padding: 10px 15px 10px 15px;
+        color: #FFFFFF;
+        background: #155EEF;
+           border: 1px solid;
+
+}
+ 
   #seemie {
-    height: 44px;
-    width: 180px;
-    left: 176px;
-    top: 0px;
-    border-radius: 8px;
-    padding: 10px 16px 10px 16px;
-    font-family: Manrope;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    text-align: left;
+    width: 50%;
+            border: 1px solid;
+        font-family: 'Manrope';
+        font-weight: 700;
+        font-size: 16px;
+       padding: 10px 15px 10px 15px;
+        color: #155EEF;
+        border-radius: 8px;
+
+  
   }
   .reco {
   position: relative;
@@ -495,11 +519,13 @@ align-items: center;
     width: 100%;
     flex-wrap: wrap;
     align-items: center;
+    padding: 10px 15px;
   }
   .faaa {
     display: flex;
     color: white;
     width: 40%;
+    align-items: center;
   }
   #any2023 {
     font-size: 15.96px;
@@ -516,10 +542,13 @@ align-items: center;
   }
   .inile {
     display: flex;
-    width: 20%;
+    width: 30%;
+  }
+  .inile img{
+    width: 100%;
   }
   .hamburger {
-    width: 32px;
+    width: 10%;
     height: 32px;
     position: relative;
     cursor: pointer;
@@ -534,7 +563,7 @@ align-items: center;
     height: 20px;
     top: 50%;
     transform: translateY(-50%);
-    left: 0;
+   right: :15%;
   }
 
   .hamburger::before {
@@ -556,5 +585,9 @@ align-items: center;
 
     top: 2.46002197265625px;
   }
-  
-}
+  .fa{
+      width: 0px;
+  height: 0px;
+  }
+   
+  }
