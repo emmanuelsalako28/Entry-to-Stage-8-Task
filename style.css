@@ -9,45 +9,64 @@
 body {
   background-color: black;
 
-  max-width: 100%;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 /* header */
 header {
   background-color: white;
   display: flex;
-  justify-content: space-around;
-  padding: 30px 0px 10px 15px;
+  justify-content: space-between;
+ padding: 20px 50px;
+    text-align: center;
 }
 
+.immmh{
+  width: 20%;
+}
 header img {
-  height: 54.08000183105469px;
-  width: 259.08001708984375px;
+
+ 
   left: 0px;
   top: 0px;
+ 
 }
 .word {
   display: flex;
   gap: 50px;
+  width: 50%;
   font-family: "Halant", serif;
-  font-size: 24px;
+  font-size: 1.25rem;
   font-weight: 500;
-  line-height: 27px;
+  align-items: center;
   letter-spacing: 0em;
-  text-align: left;
+  justify-content: flex-end;
+
+}
+.word h2{
+  font-size: 1.25rem;
 }
 #hire {
   font-family: Manrope;
   font-size: 16px;
   font-weight: 700;
-  line-height: 24px;
+  background-color: ;
   letter-spacing: 0.5px;
   text-align: left;
   color: #155eef;
-  height: 44px;
+
   border: 2px solid #155eef;
   border-radius: 8px;
   padding: 10px 16px 10px 16px;
+}
+
+#under {
+  border-bottom: 2px solid rgb(21, 94, 239);
+  font-size: 1.25rem;
+ 
+  
 }
 
 /* first frame*/
@@ -55,7 +74,9 @@ header img {
 .first {
   display: flex;
   color: wheat;
-  justify-content: space-evenly;
+  justify-content: space-between;
+padding: 20px 50px;
+align-items: center;
 }
 .first img {
   height: 479px;
@@ -65,10 +86,12 @@ header img {
   border-radius: 0px;
 }
 .right {
-  padding-left: 200px;
+  
   margin-top: 70px;
 }
-
+.immmmmmh{
+ display: block;
+}
 .right h1 {
   color: #b8b8b8;
   font-family: "Halant", serif;
@@ -108,21 +131,19 @@ header img {
   padding: 10px 16px 10px 16px;
 }
 
-#under {
-  border-bottom: 2px solid rgb(21, 94, 239);
-  width: 100px;
-  margin-bottom: 37px;
-}
+
 
 /* second frame*/
 .second {
   background-color: white;
   display: flex;
   gap: 50px;
+  justify-content: space-between;
+  padding: 50px;
 }
 
 .second img {
-  padding-left: 120px;
+
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -149,6 +170,8 @@ header img {
   width: 75%;
 }
 #hs{
+  display: flex;
+  gap: 1rem;
   margin-top: 20px;
 }
 #hirey {
@@ -199,7 +222,7 @@ header img {
 .reco {
   background-color: #ffffff;
   width: 47%;
-  height: 47%;
+  
   z-index: 2;
   padding: 54px 40px;
   gap: 24px;
@@ -207,7 +230,7 @@ header img {
   flex-direction: column;
   position: absolute;
   top: 50%;
-  left: 700px;
+  left: 40%;
 }
 .reco h3 {
   font-family: "Halant";
@@ -235,7 +258,8 @@ header img {
 /* footer section */
 .foot-logo {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 10px 50px;
 }
 
 .faaa {
@@ -245,6 +269,7 @@ header img {
 .foot-logo-image {
   width: 170px;
   height: 54.08px;
+  align-items: center;
 }
 
 .fa {
@@ -281,8 +306,16 @@ header img {
   text-align: left;
   color: white;
 }
-
-
+.inile{
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+.any2023{
+  justify-self: center;
+  display: flex;
+  justify-content: flex-end;
+}
 
 
 /* Mobile Responsivenes */
