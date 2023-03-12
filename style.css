@@ -75,12 +75,12 @@ header img {
   display: flex;
   color: wheat;
   justify-content: space-between;
-padding: 20px 50px;
+padding: 0px 50px;
 align-items: center;
 }
 .first img {
-  height: 479px;
-  width: 90%;
+ 
+  width: 100%;
   left: 949px;
   top: 56px;
   border-radius: 0px;
@@ -91,6 +91,7 @@ align-items: center;
 }
 .immmmmmh{
  display: block;
+ width: 45%;
 }
 .right h1 {
   color: #b8b8b8;
@@ -167,7 +168,7 @@ align-items: center;
   line-height: 40px;
   letter-spacing: 0.5px;
   text-align: justified;
-  width: 75%;
+  width: 100%;
 }
 #hs{
   display: flex;
@@ -229,8 +230,8 @@ align-items: center;
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 50%;
-  left: 40%;
+  top: 30%;
+  left: 50%;
 }
 .reco h3 {
   font-family: "Halant";
@@ -307,7 +308,7 @@ align-items: center;
   color: white;
 }
 .inile{
-  width: 55%;
+  width: 20%;
   display: flex;
   justify-content: space-between;
 }
@@ -453,7 +454,7 @@ align-items: center;
     width: 100%;
     top: 0px;
     left: 0px;
-    padding: 0px;
+    padding: 20px;
   }
   .reco h3 {
     font-family: Halant;
@@ -490,12 +491,15 @@ align-items: center;
     display: none;
   }
   .foot-logo {
-    display: inline-block;
-    width: 60%;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
   }
   .faaa {
     display: flex;
     color: white;
+    width: 40%;
   }
   #any2023 {
     font-size: 15.96px;
@@ -506,11 +510,13 @@ align-items: center;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4988210201263428px;
-    text-align: left;
+    text-align: center;
     color: white;
+    width: 100%;
   }
   .inile {
     display: flex;
+    width: 20%;
   }
   .hamburger {
     width: 32px;
@@ -550,4 +556,5 @@ align-items: center;
 
     top: 2.46002197265625px;
   }
+  
 }
